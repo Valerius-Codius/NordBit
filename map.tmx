@@ -283,7 +283,7 @@
  </tileset>
  <layer id="3" name="start" width="75" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0KENADAMBLHvut1/gMCwKmEFtnQLXAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwc0/Hm1dzXs39/KoAQUAFBQ==
+   eJzt0DERAEAIBDGwi38BL+AprqRIZtbAVgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADTf+y8ynmV8yp3/dUDKLgKdA==
   </data>
  </layer>
  <layer id="14" name="entry01" width="75" height="100">
