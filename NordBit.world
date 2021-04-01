@@ -1,0 +1,34 @@
+{
+    "maps": [
+        {
+            "fileName": "map.tmx",
+            "height": 3232,
+            "width": 2400,
+            "x": 0,
+            "y": -32
+        },
+        {
+            "fileName": "insel01.tmx",
+            "height": 800,
+            "width": 800,
+            "x": -832,
+            "y": 1024
+        },
+        {
+            "fileName": "insel02.tmx",
+            "height": 800,
+            "width": 800,
+            "x": 768,
+            "y": -864
+        },
+        {
+            "fileName": "insel03.tmx",
+            "height": 800,
+            "width": 800,
+            "x": 2432,
+            "y": 1056
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}
