@@ -285,7 +285,7 @@
  <tileset firstgid="2497" name="ZRPGtrees" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="ZRPGtrees.png" width="1024" height="1024"/>
  </tileset>
- <layer id="2" name="start" width="25" height="25">
+ <layer id="2" name="entryIsland03" width="25" height="25">
   <properties>
    <property name="startLayer" type="bool" value="true"/>
   </properties>
