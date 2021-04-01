@@ -141,7 +141,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/TestMap\/insel0.json"
+                 "value":"\/TestMap\/insel03.json"
                 }],
          "type":"tilelayer",
          "visible":true,
