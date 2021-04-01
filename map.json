@@ -101,7 +101,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/TestMap\/insel01.json"
+                 "value":"https:\/\/play.workadventu.re\/_\/global\/valerius-codius.github.io\/NordBit\/insel01.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -121,7 +121,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/TestMap\/insel02.json"
+                 "value":"https:\/\/play.workadventu.re\/_\/global\/valerius-codius.github.io\/NordBit\/insel02.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -141,7 +141,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/TestMap\/insel03.json"
+                 "value":"https:\/\/play.workadventu.re\/_\/global\/valerius-codius.github.io\/NordBit\/insel03.json"
                 }],
          "type":"tilelayer",
          "visible":true,
