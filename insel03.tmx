@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="1">
+ <editorsettings>
+  <export target="insel03.json" format="json"/>
+ </editorsettings>
+ <properties>
+  <property name="startLayer" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="tf_beach_tileB" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="tf_beach_tileB.png" width="512" height="512"/>
+  <tile id="1" probability="0.05"/>
+  <tile id="2" probability="0.05"/>
+  <tile id="3" probability="0.05"/>
+  <tile id="4" probability="0.05"/>
+  <tile id="5" probability="0.05"/>
+  <tile id="6" probability="0.05"/>
+  <tile id="7" probability="0.75"/>
+  <tile id="16" probability="0.005"/>
+  <tile id="17" probability="0.005"/>
+  <tile id="18" probability="0.005"/>
+  <tile id="19" probability="0.005"/>
+  <tile id="20" probability="0.005"/>
+  <tile id="21" probability="0.005"/>
+  <tile id="22" probability="0.005"/>
+  <tile id="23" probability="0.005"/>
+  <tile id="32" probability="0.005"/>
+  <tile id="33" probability="0.005"/>
+  <tile id="34" probability="0.005"/>
+  <wangsets>
+   <wangset name="BeachSand" type="corner" tile="7">
+    <wangcolor name="" color="#e7e70a" tile="-1" probability="1"/>
+    <wangtile tileid="1" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="2" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="3" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="4" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="5" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="6" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="7" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="16" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="17" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="18" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="19" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="20" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="21" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="22" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="23" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="32" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="33" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="34" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="152" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="153" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="154" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="155" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="156" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="157" wangid="0,1,0,0,0,0,0,1"/>
+    <wangtile tileid="158" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="168" wangid="0,0,0,0,0,1,0,1"/>
+    <wangtile tileid="171" wangid="0,1,0,1,0,0,0,0"/>
+    <wangtile tileid="172" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="174" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="184" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="185" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="186" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="187" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="188" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="190" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="204" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="205" wangid="0,0,0,1,0,1,0,0"/>
+    <wangtile tileid="206" wangid="0,1,0,1,0,1,0,0"/>
+   </wangset>
+   <wangset name="WetSand" type="corner" tile="169">
+    <wangcolor name="" color="#ff0000" tile="-1" probability="1"/>
+    <wangtile tileid="152" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="153" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="154" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="155" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="156" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="157" wangid="0,0,0,1,0,1,0,0"/>
+    <wangtile tileid="158" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="168" wangid="0,1,0,1,0,0,0,0"/>
+    <wangtile tileid="169" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="171" wangid="0,0,0,0,0,1,0,1"/>
+    <wangtile tileid="172" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="174" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="184" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="185" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="186" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="187" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="188" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="190" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="204" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="205" wangid="0,1,0,0,0,0,0,1"/>
+    <wangtile tileid="206" wangid="0,0,0,0,0,0,0,1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="257" name="tf_beach_tileA1" tilewidth="32" tileheight="32" tilecount="192" columns="16">
+  <image source="tf_beach_tileA1.png" width="512" height="384"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <animation>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="9" duration="100"/>
+    <frame tileid="10" duration="100"/>
+    <frame tileid="11" duration="100"/>
+    <frame tileid="12" duration="100"/>
+    <frame tileid="13" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="9">
+   <animation>
+    <frame tileid="8" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="48">
+   <animation>
+    <frame tileid="48" duration="100"/>
+    <frame tileid="49" duration="100"/>
+    <frame tileid="50" duration="100"/>
+    <frame tileid="51" duration="100"/>
+    <frame tileid="52" duration="100"/>
+    <frame tileid="53" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="56">
+   <animation>
+    <frame tileid="56" duration="100"/>
+    <frame tileid="57" duration="100"/>
+    <frame tileid="58" duration="100"/>
+    <frame tileid="59" duration="100"/>
+    <frame tileid="60" duration="100"/>
+    <frame tileid="61" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="96">
+   <animation>
+    <frame tileid="96" duration="100"/>
+    <frame tileid="97" duration="100"/>
+    <frame tileid="98" duration="100"/>
+    <frame tileid="99" duration="100"/>
+    <frame tileid="100" duration="100"/>
+    <frame tileid="101" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="104">
+   <animation>
+    <frame tileid="104" duration="100"/>
+    <frame tileid="105" duration="100"/>
+    <frame tileid="106" duration="100"/>
+    <frame tileid="107" duration="100"/>
+    <frame tileid="108" duration="100"/>
+    <frame tileid="109" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="144">
+   <animation>
+    <frame tileid="144" duration="100"/>
+    <frame tileid="145" duration="100"/>
+    <frame tileid="146" duration="100"/>
+    <frame tileid="147" duration="100"/>
+    <frame tileid="148" duration="100"/>
+    <frame tileid="149" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="152">
+   <animation>
+    <frame tileid="152" duration="100"/>
+    <frame tileid="153" duration="100"/>
+    <frame tileid="154" duration="100"/>
+    <frame tileid="155" duration="100"/>
+    <frame tileid="156" duration="100"/>
+    <frame tileid="157" duration="100"/>
+   </animation>
+  </tile>
+  <wangsets>
+   <wangset name="Water" type="edge" tile="6">
+    <wangcolor name="" color="#ffaaff" tile="-1" probability="1"/>
+    <wangtile tileid="0" wangid="1,0,1,0,1,0,0,0"/>
+    <wangtile tileid="6" wangid="1,0,1,0,1,0,1,0"/>
+    <wangtile tileid="8" wangid="0,0,1,0,1,0,0,0"/>
+    <wangtile tileid="48" wangid="1,0,0,0,1,0,1,0"/>
+    <wangtile tileid="56" wangid="1,0,1,0,0,0,0,0"/>
+    <wangtile tileid="96" wangid="0,0,1,0,1,0,1,0"/>
+    <wangtile tileid="104" wangid="0,0,0,0,1,0,1,0"/>
+    <wangtile tileid="144" wangid="1,0,1,0,0,0,1,0"/>
+    <wangtile tileid="152" wangid="1,0,0,0,0,0,1,0"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="449" name="ZRPGBeach" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="ZRPGBeach.png" width="1024" height="1024"/>
+  <tile id="225">
+   <objectgroup draworder="index" id="3">
+    <object id="4" x="1" y="0" width="27" height="32"/>
+    <object id="5" x="18.5526" y="9.86842">
+     <ellipse/>
+    </object>
+   </objectgroup>
+  </tile>
+  <wangsets>
+   <wangset name="Kies" type="corner" tile="641">
+    <wangcolor name="" color="#ffaa00" tile="-1" probability="1"/>
+    <wangtile tileid="544" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="545" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="576" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="577" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="608" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="609" wangid="0,0,0,1,0,1,0,0"/>
+    <wangtile tileid="610" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="640" wangid="0,1,0,1,0,0,0,0"/>
+    <wangtile tileid="641" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="642" wangid="0,0,0,0,0,1,0,1"/>
+    <wangtile tileid="672" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="673" wangid="0,1,0,0,0,0,0,1"/>
+    <wangtile tileid="674" wangid="0,0,0,0,0,0,0,1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="1473" name="ZRPGRocks2" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="ZRPGRocks2.png" width="1024" height="1024"/>
+  <wangsets>
+   <wangset name="GrasDark" type="corner" tile="905">
+    <wangcolor name="" color="#ff557f" tile="-1" probability="1"/>
+    <wangtile tileid="886" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="887" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="904" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="905" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="917" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="918" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="919" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="920" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="936" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="937" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="949" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="950" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="951" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="952" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="982" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="983" wangid="0,0,0,0,0,0,0,1"/>
+   </wangset>
+   <wangset name="GrasLight" type="corner" tile="841">
+    <wangcolor name="" color="#a7fbff" tile="-1" probability="1"/>
+    <wangtile tileid="619" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="620" wangid="0,0,0,1,0,1,0,0"/>
+    <wangtile tileid="621" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="650" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="651" wangid="0,1,0,1,0,1,0,0"/>
+    <wangtile tileid="653" wangid="0,0,0,1,0,1,0,1"/>
+    <wangtile tileid="654" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="682" wangid="0,1,0,1,0,0,0,0"/>
+    <wangtile tileid="686" wangid="0,0,0,0,0,1,0,1"/>
+    <wangtile tileid="714" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="715" wangid="0,1,0,1,0,0,0,1"/>
+    <wangtile tileid="717" wangid="0,1,0,0,0,1,0,1"/>
+    <wangtile tileid="718" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="747" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="748" wangid="0,1,0,0,0,0,0,1"/>
+    <wangtile tileid="749" wangid="0,0,0,0,0,0,0,1"/>
+    <wangtile tileid="840" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="841" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="872" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="873" wangid="0,1,0,1,0,1,0,1"/>
+    <wangtile tileid="879" wangid="0,0,0,1,0,0,0,0"/>
+    <wangtile tileid="880" wangid="0,0,0,0,0,1,0,0"/>
+    <wangtile tileid="911" wangid="0,1,0,0,0,0,0,0"/>
+    <wangtile tileid="912" wangid="0,0,0,0,0,0,0,1"/>
+   </wangset>
+  </wangsets>
+ </tileset>
+ <tileset firstgid="2497" name="ZRPGtrees" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+  <image source="ZRPGtrees.png" width="1024" height="1024"/>
+ </tileset>
+ <layer id="2" name="start" width="25" height="25">
+  <properties>
+   <property name="startLayer" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwUgCHiwIPJTtGOkAANXaAck=
+  </data>
+ </layer>
+ <layer id="3" name="exit" width="25" height="25">
+  <properties>
+   <property name="exitUrl" value="/TestMap/map.json#entry03"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYeuACMwIPZTvIBQDw0wTz
+  </data>
+ </layer>
+ <layer id="1" name="bottom" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJy9VjlOA0EQbK/xLoTIApGaHzjkOYQ8h9BcjlmBHGPzBt7EjDQlNU3V7EDgoKTdPqr6mFl7mJkNR8L9hI/hL1ybhNHMbghP9h2S7ytgX4kHF/jXgsPjM+E04GMiJ9cwcxpvhAMYErqKX+GVaCwLn4+7Irlz4VuEfKYBXy848Yz3lYvPtvOGPpjGwj2fuOfLwHdN8msacRfgH4Td21DTJuFBaMQ5wRa51Cz9nEah0Qkehb7kRJ18rmtndxn2wPbB7JgB9Fr3wdBZ231RGqxWxYd64w4vGvqYV/jj3NlMp/pgZ4Shxq00HtP71u1cceLb5TVYXc/2835k3CXsku3Jxa0KJ3bEdsX4B/t9P6LOttTJ7qPS8rG440wDOvHbpe5FPBOYMXo4E7+Ra9dLPFN9mfML8fv9qDl5jezfFa6Id6v7EaN68PMarQ2Z65ag5T8Ky/sv17HwDaTuamY=
+  </data>
+ </layer>
+ <layer id="7" name="gras" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztVEEKwjAQzDGTnzSo6DuU6j966EMU/Yj1jSa0S8eNh6zoQejCUtokM5mZpc4t9Y+18s6tU2/87/APqSOca7/As1f3Zfxm6t6X+3eo5+j8iNNOZzN+SO/A+OQ1Wb+mvhm0dXRneQKvOiLxZfyHAX+L0hfBEx2CLd96YzbntP/iZ2ytIypemYGjkSd7xZiBOEAamJvzqeE7YdbC/oDuzjo0f40unlWg1MSeBXyWkXgl53QuutnLPGNDxZxx7kCZucaW+bPO8H3i4Wwb4ghvNFhnWHvGGiJKjVYNrGWobMt/ZKmlvlVPlPMzJQ==
+  </data>
+ </layer>
+ <layer id="6" name="websiteLayer" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAHgzCcQAAQ==
+  </data>
+ </layer>
+ <layer id="4" name="objects" width="25" height="25">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUUAIOMUIwLc3HxqaHfbQwm9bhhWwXrc2lR1iNglFAC8AJxFxAzE1DOySBWAqIpWlohyYQawGxNg3t8ARiLyD2pqEd5AIAThkLsA==
+  </data>
+ </layer>
+ <objectgroup id="5" name="floorLayer"/>
+</map>
