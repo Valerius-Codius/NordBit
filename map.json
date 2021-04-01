@@ -1225,21 +1225,8 @@
                 }]
         }, 
         {
-         "columns":4,
-         "firstgid":2497,
-         "image":"sign_crossroad.svg",
-         "imageheight":128,
-         "imagewidth":128,
-         "margin":0,
-         "name":"sign_crossroad",
-         "spacing":0,
-         "tilecount":16,
-         "tileheight":32,
-         "tilewidth":32
-        }, 
-        {
          "columns":32,
-         "firstgid":2513,
+         "firstgid":2497,
          "image":"ZRPGtrees.png",
          "imageheight":1024,
          "imagewidth":1024,

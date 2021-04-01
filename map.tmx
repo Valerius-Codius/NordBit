@@ -278,10 +278,7 @@
    </wangset>
   </wangsets>
  </tileset>
- <tileset firstgid="2497" name="sign_crossroad" tilewidth="32" tileheight="32" tilecount="16" columns="4">
-  <image source="sign_crossroad.svg" width="128" height="128"/>
- </tileset>
- <tileset firstgid="2513" name="ZRPGtrees" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
+ <tileset firstgid="2497" name="ZRPGtrees" tilewidth="32" tileheight="32" tilecount="1024" columns="32">
   <image source="ZRPGtrees.png" width="1024" height="1024"/>
  </tileset>
  <layer id="3" name="start" width="75" height="100">
