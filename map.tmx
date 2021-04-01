@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.5" tiledversion="1.5.0" orientation="orthogonal" renderorder="right-down" width="75" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="18" nextobjectid="1">
  <editorsettings>
+  <chunksize width="32" height="32"/>
   <export target="map.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="tf_beach_tileA1" tilewidth="32" tileheight="32" tilecount="192" columns="16">
